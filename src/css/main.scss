@@ -50,5 +50,7 @@ header{
     }
 }
 
-
-
+::selection{
+    background-color:red;
+    color: #fff;
+}
