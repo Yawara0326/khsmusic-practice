@@ -1,18 +1,9 @@
 @import "_variable"; 
 @import "_normalize";
 @import "_reset" ;
-@import "nav";
+@import "_nav";
+@import "_global";
 
-html {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    box-sizing: inherit;
-  }
 
 header{
     background-image:url("https://img.youtube.com/vi/tIA_vrBDC1g/maxresdefault.jpg");
@@ -53,4 +44,9 @@ header{
 ::selection{
     background-color:red;
     color: #fff;
+}
+
+
+.header_warp{
+    display: none;
 }
